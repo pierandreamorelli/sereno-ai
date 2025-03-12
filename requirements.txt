@@ -1,0 +1,3 @@
+openai==1.65.5
+streamlit==1.43.1
+watchdog==6.0.0
