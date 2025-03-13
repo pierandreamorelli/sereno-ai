@@ -14,9 +14,10 @@ def create_system_prompt(user_data: Dict) -> str:
         name=user_data.get("name", "Non specificato"),
         therapy_experience=user_data["therapy_experience"],
         objectives=", ".join(user_data["objectives"]),
+        problems=", ".join(user_data["problems"]),
         tone=user_data["tone"],
-        style=user_data["style"],
-        timing=", ".join(user_data["timing"]),
+        attitude=user_data["attitude"],
+        initiative=user_data["initiative"],
     )
 
 
